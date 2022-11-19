@@ -47,8 +47,11 @@ public class Game {
 
     public int run() {
         // decide order of players
-        Collections.shuffle(players);
+
+//        Collections.shuffle(players);
         Queue<Player> nextPLayerQueue = new LinkedList<>(players);
+        Player p0 = nextPLayerQueue.remove();
+        nextPLayerQueue.add(p0);
         while (true) {
             Player p = nextPLayerQueue.remove();
             nextPLayerQueue.add(p);

@@ -5,7 +5,7 @@ Collaborator: Minhao Zhang, Zexin Lin
 
 
 # Playing the Game Yourself
-You can run the [play()](src/Main.java) method with no player or up to 3 bots.
+We currently disabled the functionality of playing the game yourself. 
 ```
 *  *  *  *                          L  *  *  *  *  
 *        *     +  +  +  +  +  +  +     *        *  
